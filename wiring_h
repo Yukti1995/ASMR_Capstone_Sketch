@@ -1,0 +1,23 @@
+include the header file,
+#include <wiringPi.h>
+
+
+Add the command 
+-I/usr/local/include -L/usr/local/lib -lwiringPi
+
+These can be used by enabling the wiringpi library,
+void digitalWriteByte (int value) ;
+pwmSetMode (int mode) ;
+pwmSetRange (unsigned int range) ;
+pwmSetClock (int divisor) ;
+
+
+
+Core Functions of wiring.h
+void pinMode (int pin, int mode) ;
+void pullUpDnControl (int pin, int pud) ;
+void digitalWrite (int pin, int value) ;
+void pwmWrite (int pin, int value) ;
+int digitalRead (int pin) ;
+analogRead (int pin) ;
+analogWrite (int pin, int value) ;

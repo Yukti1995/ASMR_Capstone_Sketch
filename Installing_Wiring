@@ -1,0 +1,10 @@
+sudo apt-get install wiringpi
+gpio -v
+sudo apt-get purge wiringpi
+sudo apt-get install git-core hash -r
+sudo apt-get update
+sudo apt-get upgrade
+cd
+git clone git://git.drogon.net/wiringPi
+cd ~/wiringPi
+./build
