@@ -7,3 +7,4 @@ typedef int PaStreamCallback( const void *input,
                                       const PaStreamCallbackTimeInfo* timeInfo,
                                       PaStreamCallbackFlags statusFlags,
                                       void *userData ) ;
+#foraudio
