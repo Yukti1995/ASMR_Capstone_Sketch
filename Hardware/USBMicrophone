@@ -1,0 +1,5 @@
+Execute the following commands to check the working of USB microphone , record voices and play them  
+
+lsusb
+arecord -l
+arecord -D plughw:1,0 -d 3 test.wav && aplay test.wav
